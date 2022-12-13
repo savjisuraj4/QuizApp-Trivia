@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bg_welcome"
+
+    tools:context=".Difficulty">
+
+    <LinearLayout
+        android:layout_marginTop="35sp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="105dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/easy"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="95sp"
+            android:elevation="10dp"
+            android:background="@drawable/selected_option_border_bg"
+            android:backgroundTint="#57F403"
+            android:textColor="@color/white"
+            android:text="@string/easy"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:autoSizeMinTextSize="15sp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/medium"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="25sp"
+
+            android:elevation="10dp"
+            android:textSize="65sp"
+            android:background="@drawable/selected_option_border_bg"
+            android:backgroundTint="@color/purple_700"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:text="@string/medium"
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/hard"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="25sp"
+
+            android:textSize="95sp"
+            android:background="@drawable/selected_option_border_bg"
+            android:backgroundTint="#F40303"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:elevation="10dp"
+            android:textStyle="normal"
+            android:text="@string/hard"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

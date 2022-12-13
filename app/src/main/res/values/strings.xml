@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Quiz App(Trivia)</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="title_activity_quiz">QuizActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="questionNo">Q.1</string>
+    <string name="previous">previous</string>
+    <string name="next">Next</string>
+    <string name="your_score_5">Your Score:5</string>
+    <string name="what_country_does_this_flag_belong_to">What country does this flag belong to?</string>
+    <string name="_0_10">0/10</string>
+    <string name="apple">Apple</string>
+    <string name="result">RESULT</string>
+    <string name="correct">Correct</string>
+    <string name="_0">0</string>
+    <string name="_10">10</string>
+    <string name="incoorect">Incoorect</string>
+    <string name="not_attempted">Not Attempted</string>
+    <string name="total_question">Total Question</string>
+    <string name="home">Home</string>
+    <string name="skiped">Skipped</string>
+    <string name="choose_a_category">Choose Category</string>
+</resources>
